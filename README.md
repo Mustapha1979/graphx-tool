@@ -7,8 +7,13 @@
 
 ## run this command to compute graph's metrics
 
-`./run.sh path/to/graph.txt metrics.txt RandomVertexCut 10 graph
-`
-## where `path/to/graph.txt` is path to the file where each line contains onde grapg edge: src and destication,
-## 10 means partition in 10 parts
-## graph is just short name
+`./run.sh path/to/graph.txt metrics.txt RandomVertexCut 10 youtube`
+
+`./run.sh <pathToGrpah> <filenameWithResult> <parititonerName> <minEdgePartitions> <shortGraphName>`
+
+## <pathToGrpah> - path to graph
+## <filenameWithResult> - path to the output file with metrics values
+## <parititonerName> - name of the partitioner
+## <minEdgePartitions> - number of edge partitions
+## <shortGraphName> - short name of the graph
+
